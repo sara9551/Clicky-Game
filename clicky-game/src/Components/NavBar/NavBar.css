@@ -1,0 +1,11 @@
+.navbar {
+    width: 100%;
+    font-size: 50px;
+    color: rgb(19, 16, 16);
+    background-color: rgb(246, 250, 11);
+    height: 150px;
+    font-family: Impact, Charcoal, sans-serif;
+    top: 0;
+    margin-top: -20px;
+    text-align: center;
+  }

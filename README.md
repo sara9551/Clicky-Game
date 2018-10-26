@@ -16,8 +16,9 @@ This app uses:
 * React JS
 
 
-**Intructions**
+**Link**
 
-1. 
+To access: https://sara9551.github.io/Clicky-Game/
+
 
 

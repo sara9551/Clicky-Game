@@ -1,12 +1,13 @@
 .navbar {
     width: 100%;
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
     color: rgb(19, 16, 16);
     background-color: rgb(246, 250, 11);
-    height: 150px;
-    font-family: Impact, Charcoal, sans-serif;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
     top: 0;
-    margin-top: -20px;
+    margin-top: -10px;
     text-align: center;
     padding:20px;
     border-radius: 25px;

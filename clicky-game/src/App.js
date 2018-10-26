@@ -31,11 +31,8 @@ class App extends Component {
     return (
       <Wrapper>
         <NavBar>
-          Despicable Me Clicky Game  
-          <br></br>
-          Score={this.state.currentScore}
+          Despicable Me Clicky Game
           </NavBar>
-          <br></br>
        <Intro>
           Find the match!!
         </Intro>

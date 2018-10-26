@@ -4,7 +4,7 @@
     margin: 1rem;
     position: relative;
     width: 250px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     border-width: 10px;
   }
@@ -13,22 +13,10 @@
     height: 100%;
     overflow: hidden;
     text-align: center;
-    background:rgb(1, 10, 17);
+    background:white;
   }
   .card > .img-container > img {
     width: 60%
   }
-  
-  .card > .remove {
-    color: #ff1744;
-    font-size: 48px;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    cursor: pointer;
-  }
-  
-  .card > .remove:hover {
-    color: #d50000;
-  }
+
   

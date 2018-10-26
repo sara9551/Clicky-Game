@@ -1,13 +1,18 @@
 import React, { Component } from "react";
+//import the Despicable Me Cards
 import DespicableMeCards from "./components/DespicableMeCards";
+//import the NavBar
 import NavBar from "./components/NavBar";
+//import the Wrapper
 import Wrapper from "./components/Wrapper";
+//import the "Intro"
 import Intro from "./components/Intro";
+//import the jason file with all the pictures and id's
 import despicable from "./despicable.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.despicable to the despicable.json array
+  // Setting this.state.despicable to the despicable.json
   state = {
     despicable
   };
@@ -17,11 +22,11 @@ class App extends Component {
     const despicable = this.state.despicable.filter(despicables => despicables.id !== id);
   };
 
-  //shuffle the animal cards
+  //SHOULD shuffle the animal cards
   shuffleAnimals = id => {
-  //use for loop for the shuffle of the cards
+  //SHOULD use for loop for the shuffle of the cards
     for (let i = id.length - 1; i > 0; i--) {
-  //use this to have it return a random card
+  //SHOULD use this to have it return a random card
     Math.floor(Math.random() * (i + 1));
   }
 }
